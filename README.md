@@ -37,8 +37,8 @@ A Python script that fetches events from the [Kalbi website]("https://www.kalbi.
 ```
 kalbi-scrapper/
 │── main.py          # Main script
-│── events.json      # JSON file with fetched events (generated)
-│── events.ics       # ICS file with events (generated)
+│── holidays_{CURRENT_YEAR}.json      # JSON file with fetched events (generated)
+│── holidays_{CURRENT_YEAR}.ics       # ICS file with events (generated)
 │── pyproject.toml   # Poetry configuration
 │── README.md        # Documentation
 │── LICENSE          # Project license
